@@ -64,5 +64,143 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Fence is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by crane-venture-partners) and added to the network as a stub for full-pipeline profiling.
-- https://fence.finance/
+Fence is a tech‑native facility agency for asset‑backed finance, providing real‑time control and transparency for lenders and originators. It builds the operating layer that connects assets such as credit cards, invoices, BNPL purchases, auto loans, leases, and mortgages with capital instantly, enabling faster, cheaper financing while maintaining full traceability and compliance.
+
+**Areas:** Company · Fintech · Asset-Backed-Finance · Real-Time · API
+
+## Fence on APIs.io
+
+Everything profiled for Fence is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fence/](https://apis.io/providers/fence/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [Fence Authentication API](https://apis.io/apis/fence/fence-authentication-api/) — Obtain a bearer access token for a machine-to-machine integration.
+- [Fence Declaration monitoring API](https://apis.io/apis/fence/fence-declaration-monitoring-api/) — Monitor declaration runs and per-asset results.
+- [Fence Documents API](https://apis.io/apis/fence/fence-documents-api/) — Register supporting documents and inspect upload status.
+- [Fence Payments API](https://apis.io/apis/fence/fence-payments-api/) — Validate or submit payment transactions in bulk.
+- [Fence Portfolio declarations API](https://apis.io/apis/fence/fence-portfolio-declarations-api/) — Create and process asset portfolio declarations.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Fence Agentic Access](https://apis.io/agentic-access/fence/fence-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AsyncPaymentsAccepted](https://apis.io/schemas/fence/fence-async-payments-accepted/)
+- [BulkOperationResult](https://apis.io/schemas/fence/fence-bulk-operation-result/)
+- [DealSpecificAsset](https://apis.io/schemas/fence/fence-deal-specific-asset/)
+- [DeclarationRun](https://apis.io/schemas/fence/fence-declaration-run/)
+- [DeclarationRunAsset](https://apis.io/schemas/fence/fence-declaration-run-asset/)
+- [PortfolioDeclaration](https://apis.io/schemas/fence/fence-portfolio-declaration/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Fence Context](https://apis.io/jsonld/fence/fence-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Fence Openapi Overlay](https://apis.io/overlays/fence/fence-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Fence API Rules](https://apis.io/rules/fence/fence-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Fence Authentication](https://apis.io/security/fence/fence-authentication/)
+- [Fence Domain Security](https://apis.io/security/fence/fence-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Fence Scopes](https://apis.io/scopes/fence/fence-scopes/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Fence Rate Limits](https://apis.io/rate-limits/fence/fence-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://fence.finance/)
+- [Documentation](https://docs.fence.finance/)
+- [API reference](https://fence.finance/openapi.json)
+- [Support](https://fence.finance/contact/)
+- [Blog](https://fence.finance/blog/8-abf-learnings)
+- [Security](https://fence.finance/security)
+- [Privacy policy](https://fence.finance/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 45.5** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 61.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 42.1 |
+| Access clarity | 10.5 |
+
+**Agent readiness 49.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | negotiable (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | yes |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fence/](https://apis.io/providers/fence/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Fence: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fence/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
